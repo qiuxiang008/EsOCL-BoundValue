@@ -1,0 +1,1 @@
+context WSNSystem inv: self.dataDeliveryManner=DataDeliveryManner::multipleHops implies self.networkNode->forAll(n:NetworkNode|n.sensorNode->forAll(S:SensorNode|S.radio=Radio::ZigBee))

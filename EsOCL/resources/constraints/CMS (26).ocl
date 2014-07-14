@@ -1,0 +1,1 @@
+context CrisisManagement inv:(self.crisisManageCapability=CrisisManageCapability::singleCrisis) xor(self.crisisManageCapability=CrisisManageCapability::multipleCrisis)

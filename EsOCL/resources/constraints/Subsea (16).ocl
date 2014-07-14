@@ -1,0 +1,3 @@
+context SubseaField inv:  self.xmasTree->forAll(x:XmasTree|(x.preRating = PressureRating::FiveKsi implies self.designPressure>=5) 
+and (x.preRating = PressureRating::TenKsi implies self.designPressure>=10)
+ and (x.preRating = PressureRating::FifteenKsi implies self.designPressure>=15))

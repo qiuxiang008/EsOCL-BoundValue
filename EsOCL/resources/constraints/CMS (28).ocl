@@ -1,0 +1,1 @@
+context CrisisRecord inv:  (self.injuryPerson < 10 and self.emergencyLevel =  EmergencyLevel :: general)  or (self.injuryPerson > 10 and self.injuryPerson < 20 and  self.emergencyLevel =  EmergencyLevel :: urgent) or (self.injuryPerson > 20 and  self.emergencyLevel =  EmergencyLevel :: veryUrgent) 

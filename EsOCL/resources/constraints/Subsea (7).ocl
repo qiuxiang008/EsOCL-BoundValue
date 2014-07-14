@@ -1,0 +1,1 @@
+context SubseaControlSystem inv:  self.subseaField->forAll(x:SubseaField| self.maxPressure<x.designPressure)

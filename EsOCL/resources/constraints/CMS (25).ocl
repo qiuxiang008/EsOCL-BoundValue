@@ -1,0 +1,1 @@
+context CMSApp inv: self.numberofAuthenticationMethod->size()>1 and self.numberofAuthenticationMethod->size()<5

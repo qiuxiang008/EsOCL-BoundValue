@@ -1,0 +1,1 @@
+context Network inv:  self.connectedTerminal->forAll(T:Terminal |T.oclIsTypeOf(MobileDevice) implies self.protocol = Protocol::GSM)

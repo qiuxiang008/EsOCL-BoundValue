@@ -1,0 +1,1 @@
+context FireStationSystem inv:  self.fireStation->size()<30

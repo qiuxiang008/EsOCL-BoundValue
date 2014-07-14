@@ -1,0 +1,4 @@
+package Test2
+context B
+inv initial: self.d = 2.1
+endpackage

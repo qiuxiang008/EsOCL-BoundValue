@@ -1,0 +1,3 @@
+context XmasTree inv:  ((self.waterDepth > 400 and self.waterDepth < 2000) implies self.installType = InstallationVesselType::Semisubmersible) 
+and ((self.waterDepth > 2000 and self.waterDepth<4000) implies
+ (self.installType = InstallationVesselType::Semisubmersible or self.installType = InstallationVesselType::Drillship))
