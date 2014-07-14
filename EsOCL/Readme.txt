@@ -6,4 +6,4 @@ Information on the Standalone DresdenOCL can be found in the manual
 The pain example files (pain.008.001.01corrected.xsd, BusEx1.xml, pain_wfrs.ocl) 
 have been provided by Nomos Software (http://www.nomos-software.com).
 
-Hello
+Hello Hello
