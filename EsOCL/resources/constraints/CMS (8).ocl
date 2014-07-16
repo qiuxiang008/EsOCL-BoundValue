@@ -1,0 +1,1 @@
+context Terminal inv:  self.communication->forAll(x:Communication|x.communicationLevel=CommunicationLevel::Urgent) implies self.refreshTime<3

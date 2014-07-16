@@ -1,0 +1,2 @@
+context SubseaControlSystem inv:  self.oclIsTypeOf(AllHydraulicSystem) implies (self.semApp->size() = 0 
+and self.subseaField->forAll(s:SubseaField|s.xmasTree->forAll(t:XmasTree|t.controlModule->forAll(c:ControlModule| c.sEM->size() = 0))))

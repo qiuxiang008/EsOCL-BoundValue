@@ -1,0 +1,1 @@
+context Wheel inv:  self.wheelNumber > 0 and self.wheelNumber <= 4 

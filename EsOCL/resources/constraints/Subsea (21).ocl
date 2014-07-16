@@ -1,0 +1,2 @@
+context XmasTree inv:  (self.waterDepth < 400 implies self.installType = InstallationVesselType::Jackup)
+ and (self.waterDepth > 4000 implies self.installType = InstallationVesselType::Semisubmersible)

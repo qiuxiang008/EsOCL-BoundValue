@@ -1,0 +1,4 @@
+context SubseaControlSystem inv:  self.systemType=ControlSystemType::ElectrohydraulicType implies 
+(self.detailedSystemType = DetailedControlTye::DirectElectrohydraulic or
+ self.detailedSystemType = DetailedControlTye::MultiplexedElectrohydraulic or 
+self.detailedSystemType = DetailedControlTye::AutonomousElectirc)

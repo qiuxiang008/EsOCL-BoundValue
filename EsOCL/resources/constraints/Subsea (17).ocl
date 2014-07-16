@@ -1,0 +1,1 @@
+context SubseaField inv:  self.xmasTree->forAll(x:XmasTree|self.type = FieldType::Gas implies x.treeType=TreeType::VXT)

@@ -1,0 +1,1 @@
+context XmasTree inv:  self.material = MaterialType::HH implies self.needInjection = false

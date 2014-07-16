@@ -1,0 +1,1 @@
+context RescueSystem inv:  (self.ownedHelicopter->size()>0 and self.rescueSystemApp->forAll(r:RescueSystemApp|r.rescueManagement->forAll(h:RescueManagement|h.helicopterMission->size()>0) )) or (self.ownedHelicopter->size()=0 and self.rescueSystemApp->forAll(r:RescueSystemApp|r.rescueManagement->forAll(h:RescueManagement|h.helicopterMission->size()=0) ))

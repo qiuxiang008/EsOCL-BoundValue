@@ -1,0 +1,1 @@
+context XmasTree inv:  (self.preRating=PressureRating::FiveKsi or self.preRating=PressureRating::TenKsi) implies self.waterDepth > 1000 and self.waterDepth < 3000

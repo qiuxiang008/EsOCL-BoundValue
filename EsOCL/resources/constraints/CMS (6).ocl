@@ -1,0 +1,1 @@
+context Network inv:  (self.networkType=NetworkType::PrivateNetwork) implies (self.connectedTerminal->forAll(t:Terminal|t.communication->forAll(c:Communication|c.communicationType=CommunicationType::proprietaryCommunicationProtocol)))

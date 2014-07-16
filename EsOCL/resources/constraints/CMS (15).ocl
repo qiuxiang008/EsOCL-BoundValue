@@ -1,0 +1,1 @@
+context RescueSystem inv:  self.ownedHelicopter->size()=0 implies self.helicopterMonitorControlEquip->size()=0

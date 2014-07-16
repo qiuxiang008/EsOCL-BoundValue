@@ -1,0 +1,1 @@
+context NetworkNode  inv:   self.sensorNode->size()=self.dataNode->size() * 2

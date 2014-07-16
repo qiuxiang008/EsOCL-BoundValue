@@ -1,0 +1,2 @@
+context NetworkNode  inv:   (self.sensorNode->size()<50) and (self.memberNode->size()<35) and (self.dataNode->size()<6)
+

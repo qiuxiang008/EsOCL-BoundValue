@@ -1,0 +1,1 @@
+context RescueManagement inv: self.carRescueMission->size()<5

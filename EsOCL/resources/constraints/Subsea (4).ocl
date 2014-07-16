@@ -1,0 +1,5 @@
+context SubseaControlSystem inv:  (self.oclIsTypeOf(AllHydraulicSystem) implies
+ (self.triggerType = SignalType::HydraulicSignal and self.controlType = SignalType::HydraulicSignal ) 
+and self.oclIsTypeOf(ElectrohydraulicSystem) implies (self.triggerType = SignalType::ElectricSignal and 
+self.controlType = SignalType::HydraulicSignal ) and self.oclIsTypeOf(AllElectricSystem) implies 
+(self.triggerType = SignalType::ElectricSignal and self.controlType = SignalType::ElectricSignal ))

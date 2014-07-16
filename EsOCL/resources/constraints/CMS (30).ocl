@@ -1,0 +1,1 @@
+context NetworkNode inv:  (self.dataNode->forAll(d:DataNode|d.encypt=true) and self.sensorNode->forAll(s:SensorNode|s.encypt=true) and self.memberNode->forAll(m:MemberNode|m.encypt=true)) xor(self.dataNode->forAll(d:DataNode|d.encypt=false) and self.sensorNode->forAll(s:SensorNode|s.encypt=false) and self.memberNode->forAll(m:MemberNode|m.encypt=false)) 

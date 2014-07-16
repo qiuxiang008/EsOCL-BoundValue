@@ -1,0 +1,1 @@
+context PoliceStation inv: self.robotControlEquip->size()<10

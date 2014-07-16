@@ -1,0 +1,1 @@
+context PoliceSystem inv:  self.policeStationNumber->size()>0

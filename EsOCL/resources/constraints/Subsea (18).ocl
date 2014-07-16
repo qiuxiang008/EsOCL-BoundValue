@@ -1,0 +1,13 @@
+context XmasTree inv:  ((self.serviceType = ServiceType::Sour and self.corrosivity = CorrosivityDegree::Noncorrosive and self.partialPressure<7)
+ implies self.material=MaterialType::DD ) and
+ ((self.serviceType = ServiceType::Sour and self.corrosivity = CorrosivityDegree::Slightylycorrosive and self.partialPressure<30 and self.partialPressure>7 )
+ implies self.material=MaterialType::EE) and
+ ((self.serviceType = ServiceType::Sour and self.corrosivity = CorrosivityDegree::ModeratelytoHighly 
+and self.partialPressure>30) implies self.material=MaterialType::FF ) 
+and ((self.serviceType = ServiceType::Sour and self.corrosivity = CorrosivityDegree::Verycorrosive and self.partialPressure>30)
+ implies self.material=MaterialType::HH ) and 
+((self.serviceType <> ServiceType::Sour and self.corrosivity = CorrosivityDegree::Noncorrosive and self.partialPressure<7)
+ implies self.material=MaterialType::AA ) and
+ ((self.serviceType <> ServiceType::Sour and self.corrosivity = CorrosivityDegree::Slightylycorrosive and self.partialPressure<30 and self.partialPressure>7 )
+ implies self.material=MaterialType::BB) and ((self.serviceType <> ServiceType::Sour and 
+self.corrosivity = CorrosivityDegree::ModeratelytoHighly and self.partialPressure>30) implies self.material=MaterialType::CC )

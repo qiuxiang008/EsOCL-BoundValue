@@ -1,0 +1,1 @@
+context SemApp inv:  self.deviceController->exists(x:DeviceController| (x.oclIsTypeOf(TemperatureTransducerController) or x.oclIsTypeOf(CombinedPTTransducerController)) )

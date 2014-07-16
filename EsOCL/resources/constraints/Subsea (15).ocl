@@ -1,0 +1,1 @@
+context ProductionChokeValve inv:  self.pressureDrop/self.inletPressure > 0.6

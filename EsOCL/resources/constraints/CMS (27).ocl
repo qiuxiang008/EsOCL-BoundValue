@@ -1,0 +1,1 @@
+context Crisis inv:  (self.crisisStatus = CrisisStatus::active) implies ((self.detailedInfoAvailability <=30) and (self.routeplanAvailbility <=30))
